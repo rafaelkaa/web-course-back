@@ -4,7 +4,8 @@ const fs = require('fs')
 const app = express()
 
 const pathLogFile = 'logfile.txt'
-const port = 5294
+const port = 3000
+
 
 app.use(bodyParser.json());
 
