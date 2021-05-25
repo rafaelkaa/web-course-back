@@ -40,7 +40,7 @@ GET :
 `/weekday?day=*` - получение дня недели в текущем месяце по введенному  числу
 POST :
 `/calc/` - математические операции. На вход принимает 3 переменные:
- 1. `"value1"` - число 1
- 2. `"value2"` - число 2
- 3. `"operation"` - операция: "subtraction","addition","multiplication","division"
+  1. `"value1"` - число 1
+  2. `"value2"` - число 2
+  3. `"operation"` - операция: "subtraction","addition","multiplication","division"
 2. Логгирование запросов и исключений в формате `{Date and time in UTC} {Ip} {Method} {Url} {Status code}`
