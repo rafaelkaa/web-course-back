@@ -1,0 +1,19 @@
+Tue, 25 May 2021 09:35:56 GMT Server running on at hhtp://localhost:5294
+{Tue, 25 May 2021 09:36:44 GMT} {::1} {GET} {/ping} {200}
+{Tue, 25 May 2021 09:36:44 GMT} {::1} {GET} {/favicon.ico} {200}
+{Tue, 25 May 2021 09:37:26 GMT} {::1} {GET} {/ping/weekday?day=14} {200}
+{Tue, 25 May 2021 09:37:41 GMT} {::1} {GET} {/weekday?day=14} {200}
+{Tue, 25 May 2021 09:37:50 GMT} {::1} {GET} {/weekday?day=13} {200}
+{Tue, 25 May 2021 09:38:08 GMT} {::1} {GET} {/weekday?day=-13} {200}
+{Tue, 25 May 2021 09:38:08 GMT} {::1} {GET} {/weekday?day=-13} {400}
+ + Error: wrong day
+    at getDayOfWeek (E:\ip\ping\index.js:23:11)
+    at E:\ip\ping\index.js:28:44
+    at Layer.handle [as handle_request] (E:\ip\ping\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ip\ping\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\ip\ping\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\ip\ping\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ip\ping\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\ip\ping\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\ip\ping\node_modules\express\lib\router\index.js:275:10)
+    at E:\ip\ping\index.js:13:5
