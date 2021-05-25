@@ -42,5 +42,6 @@ POST :
 `/calc/` - математические операции. На вход принимает 3 переменные:
   1. `"value1"` - число 1
   2. `"value2"` - число 2
-  3. `"operation"` - операция: "subtraction","addition","multiplication","division".
+  3. `"operation"` - операция: "subtraction","addition","multiplication","division".       
+
 Логгирование запросов и исключений в формате `{Date and time in UTC} {Ip} {Method} {Url} {Status code}`
